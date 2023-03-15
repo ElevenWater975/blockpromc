@@ -9,3 +9,7 @@ function openText() {
     document.getElementById("opentext").style.display = "none";
     document.getElementById("closetext").style.display = "block";
 }
+
+function earlyAccess() {
+    alert("This page is being worked on and it will be released once the site is fully released.")
+}
