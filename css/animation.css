@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+body {
+    background-image: url("2023-04-03_18.38.05.png");
+    background-color: rgb(32, 32, 32);
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Minecraft', sans-serif;
+    padding-bottom: 25px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 48px;
+    color: yellow
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#blockprofessionals { 
+    text-align: center;
+    font: sans-serif;
+}
+
+video {
+    height: 320px;
+    width: 240px;
+}
+

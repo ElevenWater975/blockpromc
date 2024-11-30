@@ -1,0 +1,22 @@
+.title {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.title h1 {
+    font-size: 48px;
+}
+
+.title h2 {
+    font-size: 24px;
+}
+
+.Episodes {
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-top: 60px;
+    align-items: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
