@@ -1,14 +1,36 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+body {
+    color: white;
+    background-color: rgb(32, 32, 32);
+    background-image: url(../Dirt_background_BE1.png);
+    width: 100%;
+    overflow: hidden;
+}
+
 .title {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Minecraft', sans-serif;
+    padding-bottom: 25px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: black;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Minecraft' sans-serif;
 }
 
 .title h1 {
     font-size: 48px;
+    color: yellow;
 }
 
 .title h2 {
     font-size: 24px;
+    color: white;
 }
 
 .Episodes {
@@ -19,4 +41,38 @@
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: gray;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+footer h1 {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 52px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: lime;
+}
+
+footer a:hover {
+    color: green;
 }

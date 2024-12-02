@@ -25,13 +25,16 @@ h1 {
 h2 {
     font-size: 32px;
     color: white;
-}
+}   
 
 p {
     color: white;
 }
 
-
+mark {
+    background-color: lime;
+    border: 1px solid black; 
+}
 
 @media (min-width: 825px) {
     .container p {
@@ -42,6 +45,11 @@ p {
 
     .container {
         padding-top: 120px;
+        text-align: center;
+    }
+
+    .p2 {
+        padding-bottom: 120px;
     }
 
     p {
@@ -96,11 +104,54 @@ p {
 @media (max-width: 824px) {
     .container {
         width: 100%;
+        font-family: Arial;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 24px; 
     }
 
     .container p {
         font-size: 20px;
         width: 100%;
+        font-weight: bold;
+        border-radius: 10%;
+        text-align: center;
+    }
+
+    .container a {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    .selector {
+        width: 100%;
+        font-family: Arial;
+        font-size: 24px;
+        border: 1px solid white;
+        border-radius: 10%;
+    }
+
+    .selector-nav {
+        width: 100%;
+    }
+
+    .selector a {
+        text-decoration: none;
+        color: black;
+    }
+
+    li {
+        list-style-type: disc;
+    }
+
+    li a {
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    h2 {
+        text-align: center;
     }
 }
 

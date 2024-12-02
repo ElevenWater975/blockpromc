@@ -41,3 +41,23 @@ video {
     width: 240px;
 }
 
+img {
+    height: 320;
+    width: 320;
+}
+
+img:hover {
+    height: 480;
+    width: 640;
+    cursor: pointer;
+
+}
+
+#blockprofessionals h1 {
+    font-family: sans-serif;
+}
+
+#blockprofessionals p {
+    font-size: 24px;
+    font-family: sans-serif;
+}

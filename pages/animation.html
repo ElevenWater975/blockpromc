@@ -7,11 +7,22 @@
     <script src="../js/animation.js"></script>
     <title>Our Animated series</title>
 </head>
-<body>
-    <div id="blockprofessionals">
+<body style="background-color: rgba(32, 32, 32);">
+    <div class="title">
+        <h1>Welcome to BlockPro Animation!</h1>
+        <h2>What would you like to watch?</h2>
+    </div>
+    <div id="blockprofessionals" style="width: 100%;">
         <h1>The Block Professionals</h1>
         <p>Dive into the wacky adventures of the players of BlockPro!</p>
-        
+        <p>Click the series image below to watch free episodes!</p>
+        <img src="../The Block Professionals.png" onclick="blockProfessionals()">
     </div>
 </body>
 </html>
+
+<script>
+    function blockProfessionals() {
+        window.location.href = "https://blockpromc.netlify.app/pages/blockprofessionals";
+    }
+</script>

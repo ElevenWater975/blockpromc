@@ -3,32 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" type="text/css" href="../css/blockprofessionals.css">
+    <script src="../js/blockprofessionals.js"></script>
     <title>The Block Professionals</title>
 </head>
 <body>
     <div class="title">
         <h1>Watch FREE Block Professionals episodes!</h1>
         <h1>Totally free! Created by ElevenWater975</h1>
-        <h2>Recommended for Mature Audiences</h2>
-        <h2>Search episodes:</h2>
-        <input id="searchbar" type="text" placeholder="Search free episodes">
-        <form action="../action_page.php">
-        <button type="submit" id="search">Search</button>
-    </input>
-</form>
     </div>
     <div class="Episodes">
-        <table id="firstfour">
+        <table>
             <tr>
             <th>Episode 1 <p>Screaming in the Bathroom Prank</p></th>
             <th>Episode 2 <p>The Letter Scoundrel</p></th>
             <th>Episode 3 <p>Blowing Smoke</p></th>
             <th>Episode 4 <p>MC Album #5: Special Holiday</p></th>
+            <th>Episode 5 <p>Gen Z Boss and a Mini</p></th>
             </tr>
-            <tr>
-                <td>
+            <div class="wrapper-main">
+            <td>
+                <td style="width: 320px;">
                     <div id="ep1">
                         <video width="320" height="240" controls>
                             <source src="../TheBlockProfessionals/The Block Professionals_ Screaming in the Bathroom Prank.mp4">
@@ -49,22 +44,26 @@
                         </video>
                         </div>
                 </td>
-                <td>
+                <td style="width: 320px;">
                     <div id="ep4">
                         <video width="320" height="240" controls>
                             <source src="../TheBlockProfessionals/The Block Professionals_ MC Album 5.mp4">
                         </video>
                         </div>
                 </td>
-            </tr>
+            <td>
+                <div id="ep5">
+                <video width="320" height="240" controls>
+                    <source src="../TheBlockProfessionals/The Block Professionals_ Gen Z Boss and a Mini (Animation).mp4">
+                </video>
+                </div>
+            </td>
+        </tr>
         </table>
-
-        <div id="ep5">
-            <h1>Episode 5</h1>
-        <video width="320" height="240" controls>
-            <source src="../TheBlockProfessionals/The Block Professionals_ Gen Z Boss and a Mini (Animation).mp4">
-        </video>
         </div>
     </div>
+    <footer>
+        <h1><a href="https://blockpromc.netlify.app">Back to Home</a></h1>
+    </footer>
 </body>
 </html>
