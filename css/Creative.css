@@ -5,12 +5,18 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     overflow-y: scroll;
+    width: 100%;
+    height: auto;
 }
 
 .container p {
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
+}
+
+.container-innards {
+    width: 100%;
 }
 
 li a {
@@ -73,6 +79,7 @@ li a {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 
 @media(min-width: 825px) {
     .selector-nav {
@@ -144,6 +151,50 @@ li a {
     text-align: center;
 }
 
+.container {
+    width: 825px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+}
+
+@media (max-width: 824px) {
+    .container {
+        width: 100%;
+    }
+
+    .container-innards {
+        max-width: 100%;
+    }
+
+    #tips {
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: rgb(36, 0, 165);
+        width: 100%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    #tips p {
+        font-size: 24px;
+    }
+
+    .container p {
+        font-size: 24px;
+    }
+
+    .selector {
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .selector a {
+        font-size: 24px;
+    }
 }
 
 footer {

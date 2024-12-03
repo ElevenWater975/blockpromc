@@ -5,7 +5,8 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     height: 100%;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 button {
@@ -25,6 +26,8 @@ button:hover {
     background-color: rgb(32, 32, 32);
     background-repeat: no-repeat;
     color: black;
+    max-width: 100%;
+    height: auto;
 }
 
 #tips {
@@ -70,10 +73,12 @@ p {
     font-family: arial;
 }
 
-@media (min-width: 825px) {
+.container {
+    width: 100%; 
+}
+
     .container p {
         font-size: 24px;
-        width: 825px;
         margin-right: auto;
         margin-left: auto;
         font-family: Arial;
@@ -81,13 +86,14 @@ p {
         padding-bottom: 20px;
     }
 
-    .container {
-        padding-bottom: 50px;
+    #tips {
+        width: 100%;
     }
 
     p {
+        text-align: center;
         font-size: 24px;
-        width: 825px;
+        width: 100%;
         margin-right: auto;
         margin-left: auto;
         padding-top: 40px;
@@ -138,4 +144,23 @@ p {
         margin-right: auto;
         margin-left: auto;
     }
-}
+
+    @media (min-width: 825px) {
+        #tips {
+            width: 825px;
+        }
+
+        p {
+            width: 825px;
+        }
+    }
+
+    @media (max-width: 824px) {
+        .container {
+            background-color: black;
+            border: 1px solid white;
+            border-radius: 10px;
+            max-width: 100%;
+        }
+        
+    }

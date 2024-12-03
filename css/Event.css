@@ -8,6 +8,8 @@ body {
     width: 100%;
 }
 
+@media (min-width: 825px) {
+
 .container p {
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -88,7 +90,7 @@ p {
     font-family: arial;
 }
 
-@media (min-width: 825px) {
+
     #footer {
         background-image: url("../img/Event_background2.png");
         height: 100%;
@@ -185,3 +187,13 @@ p {
         margin-left: auto;
     }
 }
+
+@media (max-width: 824px) {
+    #tips {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+} 

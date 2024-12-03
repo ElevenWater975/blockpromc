@@ -114,7 +114,7 @@ p {
 
     .a2 {
         padding-top: 0px;
-        padding-bottom: 20 px;
+        padding-bottom: 20px;
     }
 
     .container p {
@@ -184,4 +184,63 @@ p {
         margin-right: auto;
         margin-left: auto;
     }
+}
+
+@media (max-width: 824px) {
+    .container {
+        max-width: 100%;
+    }
+
+    #tips {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #tips p {
+        font-size: 24px;
+    }
+    
+    #selector {
+        width: 100%;
+        font-family: Arial;
+        font-size: 24px;
+        border: 1px solid white;
+        border-radius: 10%;
+    }
+
+    #selector-nav {
+        width: 100%;
+    }
+
+    #selector a {
+        text-decoration: none;
+        color: black;
+    }
+
+    li {
+        list-style-type: disc;
+    }
+
+    li a {
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    #closetext {
+        display: none;
+    }
+
+    #feature {
+        display: none;
+    }
+
+    p.a2 {
+        padding: 0px 0px 10px;
+    }
+
+    .container p {
+        font-size: 24px;
+    }
+
 }
