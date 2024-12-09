@@ -1,7 +1,9 @@
-function earlyAccess() {
-    alert("This page is being worked on and it will be released once the site is fully released.");
-}
-
-function soon() {
-    alert("This feature is coming soon");
+// Used for specifically mobile users
+function openNav() {
+    var x = document.getElementById("list")
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }

@@ -1,41 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>BlockPro Minecraft</title>
-<meta name="description" content="Our first page">
-<meta name="keywords" content="html tutorial template">
-<link rel="stylesheet" type="text/css" href="index.css">
-<link rel="shortcut icon" type="image/x-icon" href="BlockProFavicon.ico" />
-<script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+    <title>BlockPro Minecraft</title>
 </head>
 <body>
-    <div class="title">
-<h1>BlockPro Minecraft</h1>
-<h2 class="subtitle">The place of your dreams.</h2>
-<h2 style="color: rgb(255, 75, 75);">Mobile compatibility currently in development</h2>
-</div>
+    <nav>
+        <a href="javascript:void(0)" onclick="openNav()">
+            <div class="1"></div>
+            <div class="2"></div>
+            <div class="3"></div>
+            </a>
+        <ul id="list">
 
-<div class="container">
-    <p><mark>Welcome to BlockPro! BlockPro is a version 1.16.5 - 1.20.4 Minecraft Java Edition Minecraft minigame server. On this server, there are lots of different minigames to try out. Join now! The server IP is BlockPro.serv.nu</mark></p>
-    <br>
-    <div class="p2"><p><mark>Announcements: New episodes for our official animated series called "The Block Professionals" coming soon! Watch the first (kinda trash) 5 episodes <a href="https://blockpromc.netlify.app/pages/blockprofessionals">here</a></mark></p></div>
-</div>
+            <li><a href="#info">Information (Not boring!)</a></li>
+            <li><a href="#serverip">Server IP</a></li>
+            <li><a href="#server-events">Events</a></li>
+            <li><a href="https://blockpromc.netlify.app/pages/blockprofessionals">Animation</a></li>
+            <li><a href="https://blockpro.boards.net/board/3/announcements">Announcements</a></li>
+            <li><a href="https://server.pro/server/5989551">Donate to the Minecraft Server</a></li>
+            <li><a href="https://twitter.com/BlockPro3">Twitter</a></li>
+            <li><a href="https://discord.gg/QKPx2dFE">Discord</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper-main">
 
-<div class="selector" style="background-color: yellow;">
-    <h2 style="color: black;">Select your minigame:</h2>
-    <div class="selector-nav" style="margin-right: auto; margin-left: auto; width: 825px;">
-        <li><a href="https://blockpromc.netlify.app">Home Page</a></li>
-        <li><a href="https://blockpromc.netlify.app/pages/animation">Animated Series!</a></li>
-        <li><a href="https://blockpromc.netlify.app/pages/zombies">Zombies</a></li>
-        <li><a href="https://blockpromc.netlify.app/pages/kitpvp">KitPVP</a></li>
-        <li><a href="https://blockpromc.netlify.app/pages/creative">Creative</a></li>
-        <li><a href="https://blockpromc.netlify.app/pages/parkour">Parkour</a></li>
-        <li><a href="https://blockpromc.netlify.app/pages/event">Events</a></li>
-        <li><a href="https://blockpromc.netlify.app/pages/discord">Discord Server</a>
-        <li><a href="#" onClick="soon()">Other pages</li>
-    </ul>
+    <div class="container">
+
+        <div class="title-subtitle">
+        <h1 id="title"><span style="color: lime;">Block</span><span style="color: rgb(56, 255, 255);">Pro</span></h1>
+        <h2 id="subtitle">Your Source of Pixelated Minecraft Fun!</h2>
+        </div>
+        <img class="feature-img" src="file (3).png">
+    </div>
+
+    <div id="info">
+        <div class="info-container">
+        <h1 style="color: rgb(255, 122, 122)">What is BlockPro?</h1>
+        <img class="info-image" src="What is BlockPro.jpg">
+        <p>That's like asking: "What's fun?" BlockPro is both a community of content creation and a Minecraft Java AND Bedrock edition Minecraft server filled with lots of stuff like Easter eggs, Parkour, PvP, Zombies, and a brand new SMP (Shhhh, this is a secret coming out soon!)</p>
+    </div>
+    </div>
+    <div id="serverip">
+        <div class="serverip-container">
+        <h1 style="color: yellow;">BlockPro Minecraft Server?</h1>
+        <img class="serverip-image" src="BlockPro Newgrounds (1).png">
+        <p>That's right, we have an official Minecraft server called "BlockPro" which contains a multitude of entertaining minigames such as Zombies, PVP, Survival, Paintball, and even Parkour! The server IP is BlockPro.serv.nu</p>
+    </div>
+    </div>
+
+    
+    <div id="server-events">
+        <div class="server-events-container">
+            <h1 style="color: lightblue;">Minecraft Server Events</h1>
+            <img class="server-events-image" src="Event_background.png">
+            <p>Fight to the death, or compete with a friend! On our Minecraft server, we offer free special events for all server players for in-game prizes! Spleef, PVP, Survival Games (Coming Soon), you name it! Let out your true competitive spirit and compete in our special events today! Created by Jind.</p>
+
+        </div>
     </div>
 </div>
-<p style="font-size: 12px;">This website was made with lots of love... and VsCode... and Netlify :)</p>
+<p style="font-size: 12px; color: white;">This website was made with lots of love... and VsCode... and Netlify :)</p>
 </body>
 </html>

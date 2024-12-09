@@ -10,7 +10,7 @@ body {
 
 .title {
     text-align: center;
-    font-family: 'Minecraft', sans-serif;
+    font-family: sans-serif;
     padding-bottom: 25px;
     border: 1px solid white;
     border-radius: 25px;
@@ -20,7 +20,7 @@ body {
 
 .title {
     text-align: center;
-    font-family: 'Minecraft' sans-serif;
+    font-family: sans-serif;
 }
 
 .title h1 {
